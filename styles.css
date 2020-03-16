@@ -1,0 +1,47 @@
+.nav-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  margin-top:30px;
+  display: grid;
+  grid-template-columns:30% auto;
+  background-color: red;
+  text-decoration: underline;	
+}
+
+.burger-icon {
+    display: none;
+}
+
+.main-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    grid-template-areas: 
+    	"featuredMain featuredMain featuredSub"
+    	"contentMain contentMain"
+}
+
+.featured {
+    grid-area: featuredMain;
+    min-height: 500px;
+    background-color: purple;
+}
+
+.sub-featured {
+    grid-area: featuredSub;
+    background-color: blue;
+}
+
+.main-content {
+    grid-area: contentMain;
+    background-color: yellow;
+}
+
