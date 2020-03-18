@@ -56,10 +56,25 @@ body{
       "contentMain contentMain contentSub"
 }
 
+.wrapper > .featured,
+.wrapper > .sub-featured > div,
+.wrapper > .main-content,
+.wraper > .main-sidebar{
+    padding: 20px
+}
+
 .featured {
     grid-area: featuredMain;
     min-height: 500px;
-    background-color: purple;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.1)) border-box, url(https://source.unsplash.com/1600x900/?women) no-repeat center center;
+    display:grid;
+    align-content: flex-end;
+    color:#fff;
+}
+
+.featured h1 {
+    font-size: 36px;
+    max-width: 650px;
 }
 
 .sub-featured {
