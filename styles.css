@@ -153,9 +153,10 @@
       "contentMain contentMain contentMain"
       "featuredSub featuredSub featuredSub"
       "contentSub contentSub contentSub"
+  }
 
-
-    }
+  .footer > div{
+    grid-column: 1/-1;
   }
 
 }
