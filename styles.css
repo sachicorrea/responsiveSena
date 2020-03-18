@@ -83,7 +83,6 @@ body{
 
 .sub-featured {
     grid-area: featuredSub;
-    background-color: blue;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -230,6 +229,18 @@ body{
 
   .footer > div{
     grid-column: 1/-1;
+  }
+
+  .featured h1 {
+    font-size: 30px;
+  }
+
+  .mobile-show{
+    display: block;
+  }
+
+  .mobile-hide{
+        display: none;
   }
 
 }
