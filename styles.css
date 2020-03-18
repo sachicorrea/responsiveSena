@@ -1,3 +1,9 @@
+body{
+  font-family:"Prompt", sans-serif;
+  background-image: url(/images/60.-Zircon.jpg);
+  background-size: cover;
+}
+
 .nav-wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -5,12 +11,6 @@
   margin-top:30px;
   display: grid;
   grid-template-columns:30% auto;
-  background-color: red;
-  text-decoration: underline; 
-}
-
-.burger-icon {
-    display: none;
 }
 
 .nav-wrapper ul li {
@@ -18,9 +18,31 @@
     list-style-type: none;
 }
 
-.main-wrapper {
-    max-width: 1200px;
-    margin: auto;
+.nav-wrapper a {
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-weight: bold;
+    color:#000;
+} 
+
+.nav-wrapper a:hover {
+    cursor: pointer;
+    color: #eee;
+}
+
+.list-item {
+    margin-left: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.burger-icon {
+    display: none;
 }
 
 .wrapper {
